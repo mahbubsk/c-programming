@@ -48,19 +48,18 @@ int main()
     // }
     /*diamond is created*/
     /*double pyramid is starting from here*/
-    int i, j, stars = 5, rows = 5, spaces = 1;
+    int i, j, stars = 4, rows = 5, spaces = 0;
     for (i = 0; i < rows * 2; i++)
     {
         for (j = 1; j < spaces; j++)
         {
             printf(" ");
         }
-        for (j = 0; j < 2 * stars + 1; j++)
+        for (j = 0; j < 2 * stars - 1; j++)
         {
             printf("*");
         }
         printf("\n");
-
         if (i < rows)
         {
             spaces++;

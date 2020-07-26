@@ -4,18 +4,18 @@
 int main()
 {
   int i, low, high;
-  int group[COUNTER];
   float value[MAXVAL];
-  int group[COUNTER] = { 0,
-                         0,
-                         0,
-                         0,
-                         0,
-                         0,
-                         0,
-                         0,
-                         0,
-                         0 } for (i = 0; i < MAXVAL; i++)
+  int group[COUNTER] = {0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0};
+  for (i = 0; i < MAXVAL; i++)
   {
     scanf("%f", &value[i]);
     ++group[(int)(value[i]) / 10];
@@ -31,7 +31,7 @@ int main()
     {
       high = low + 9;
     }
-    printf("%3d %3d to%3d %3d\n", i + 1, low, high, group[i]);
+    printf("%3d %3d to %3d %3d\n", i + 1, low, high, group[i]);
   }
   return 0;
 }
