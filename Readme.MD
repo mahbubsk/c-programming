@@ -4,7 +4,7 @@
 
 ## Core concepts of for loop and array
 
-<p style="text-align:center; font-size:20px;color:white;background:black;">The Loop</p>
+### The loop
 
 **when we have to do a work again and again then we can think about loop.loop is the most important thing for every programming language.**
 
@@ -13,7 +13,8 @@
 1. for Loop
 2. while Loop
 3. do while Loop
-<p style="text-align:center; font-size:20px;color:lime;">1. for loop</p>
+
+### for loop
 
 **- structure of for loop**
 
@@ -25,7 +26,7 @@
 
 ---
 
-<p style="text-align:center; font-size:20px;color:lime;">2. while loop</p>
+### while loop
 
 **- structure of while loop**
 
@@ -40,7 +41,7 @@
 
 ---
 
-<p style="text-align:center; font-size:20px;color:lime;">3. do while loop</p>
+### do while loop
 
 **- structure of do while loop**
 
@@ -53,7 +54,8 @@
 
 ---
 
-<p style="text-align:center; font-size:20px;color:white;background:black;">The Array</p>
+## The Array
+
 Basically the array is one kind of data structure. there are three type of array.
 
 1. One dimensional array
@@ -94,7 +96,7 @@ It has some collection of rows and columns.
   }
 ```
 
-<p style="text-align:center; font-size:20px;color:white;background:black;">Memory Layout</p>
+## Memory Layout
 
 ```
 array_name[0][0] = 1;
@@ -147,7 +149,8 @@ A multidimensional array is called an array of arrays.
 
 ```
 
-<p style="text-align:center; font-size:20px;color:white;background:black;">Memory Layout</p>
+## Memory Layout
+
 ```
 
 array[0][0][0] = 1
@@ -233,8 +236,7 @@ return 0;
 
 ```
 
-<div style="background:black;color:white; padding:20px;border-radius:15px">
-  output:
+```
 
 enter 16 value
 
@@ -271,20 +273,23 @@ arr[1][1][1] = 55
 arr[1][1][2] = 66
 arr[1][1][3] = 77
 
-</div>
+```
 
 <!--core concepts of for loop and array markdown is ending here-->
-___
-___
+
+---
+
+---
+
 <!--some list-->
 
-
-<p style="text-align:
-center; font-size:20px;color:black;background:lightblue;">Problem solving with for loop.</p>
+## Problem solving with for loop
 
 **for loop**
+
 - Width Height
-<div style="background:lightgray;color:black; padding:20px; border-radius:15px">
+
+```
 
 #include <stdio.h>
 
@@ -303,25 +308,28 @@ int main(){
 
     }
     return 0;
+
 }
-</div>
 
-
----
-
-<div style="background:black;color:white; padding:20px;border-radius:15px">
-
-    * * * * *
-    * * * * *
-    * * * * *
-    * * * * *
-    * * * * *
-</div>
+```
 
 ---
 
-* Right-angled triangle
-<div style="background:lightgray;color:black; padding:20px; border-radius:15px">
+```
+
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+
+```
+
+---
+
+- Right-angled triangle
+
+```
 
 #include <stdio.h>
 
@@ -340,24 +348,28 @@ int main(){
 
     }
     return 0;
+
 }
 
-</div>
-
+```
 
 ---
 
-<div style="background:black;color:white; padding:20px;border-radius:15px">
+```
 
     *
     * *
     * * *
     * * * *
     * * * * *
-</div>
+
+```
+
 ---
+
 - Pyramid
-<div style="background:lightgray;color:black; padding:20px; border-radius:15px">
+
+```
 
 #include <stdio.h>
 
@@ -385,24 +397,25 @@ int main(){
 
     }
     return 0;
+
 }
 
-</div>
-
+```
 
 ---
 
-<div style="background:black;color:white; padding:20px;border-radius:15px">
+```
 
        *
       ***
      *****
     *******
-</div>
 
+```
 
 - Reverse diamond
-<div style="background:lightgray;">
+
+```
 
     int i, j, stars = 5, rows = 5, spaces = 1;
 
@@ -431,11 +444,16 @@ int main(){
         }
     }
     return 0;
+
 }
-</div>
+
+```
+
 <!-- output -->
 
-<div style=" background:black; color:white; padding:20px; border-radius:15px">
+```
+
+output
 
     *********
      *******
@@ -447,7 +465,7 @@ int main(){
      *******
     *********
 
-</div>
+```
 
 ---
 
@@ -465,4 +483,7 @@ int main(){
 ---
 
 Some Markdown text with <span style="color:blue">some **blue** text</span>.
+
+```
+
 ```
