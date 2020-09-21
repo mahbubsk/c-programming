@@ -23,7 +23,7 @@
 #include <stdio.h>
 int main()
 {
-    // int i, j, stars = 0, rows = 15, spaces = rows - 1;
+    // int i, j, stars = 0, rows = 5, spaces = rows - 1;
     // for (i = 0; i < rows * 2; i++)
     // {
     //     for (j = 0; j <= spaces; j++)
